@@ -5,9 +5,14 @@ edition = "2018"
 license = "WTFPL"
 publish = false
 
+[features]
+no-entrypoint = []
+
 [dependencies]
 solana-program = "1.7.11"
 thiserror = "1.0.29"
+spl-token = { version = "3.2.0", features = ["no-entrypoint"] }
+arrayref = "0.3.6"
 
 [dev-dependencies]
 solana-sdk = "1.7.11"

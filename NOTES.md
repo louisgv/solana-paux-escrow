@@ -41,3 +41,6 @@
 ## Cargo usage
 - https://github.com/rust-lang/cargo/issues/5586 <- ?? It takes 3 years and they couldn't finish it because they were wrestling with the TOML format and sorting?? Rust was made by people who doesn't take risk
 - use cargo-edit instead: `cargo install cargo-edit`
+
+## API deprecation
+- Rent::from_account_info has been deprecated
